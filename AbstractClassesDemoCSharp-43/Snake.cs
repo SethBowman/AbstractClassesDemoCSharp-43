@@ -8,6 +8,9 @@ namespace AbstractClassesDemoCSharp_43
 {
     public class Snake : Animal
     {
-        
+        public override void Move()
+        {
+            Console.WriteLine("Snake slithers");
+        }
     }
 }
